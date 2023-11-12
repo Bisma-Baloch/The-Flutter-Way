@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:the_flutter_way/app/tip_calculator_app.dart';
+import 'package:the_flutter_way/app/grocery_list_app.dart';
 
 void main() {
-  runApp(CalculatorTipApp());
+  runApp(const GroceryListApp());
 }
 
 class MyApp extends StatelessWidget {
