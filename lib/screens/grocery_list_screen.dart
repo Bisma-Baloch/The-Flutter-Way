@@ -133,6 +133,7 @@ class GroceryDetailScreen extends StatelessWidget {
                 Text('Description: ${groceryItem.description}'),
                 const SizedBox(height: 8),
                 Text('Price: PKR ${groceryItem.price}'),
+                ElevatedButton(onPressed: () {}, child: Text('Add to cart'))
               ],
             )));
   }
